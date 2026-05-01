@@ -1,0 +1,5 @@
+Yolov7_LPR/
+__pycache__/
+.venv/
+.vscode/
+app.py
