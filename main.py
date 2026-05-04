@@ -79,6 +79,7 @@ async def detect_objects(
     logger.info(f"Text extraction successful. Extracted texts: {extracted_texts}")
 
     base64_encoded_overlay = base64.b64encode(overlay_img_bytes).decode('utf-8')
+    
     return ExtractResponse(
         image=base64_encoded_overlay,
         results=extracted_texts,
